@@ -1,0 +1,304 @@
+@import url(https://fonts.googleapis.com/css2?family=Russo+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,ul,ol {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+    background-color: rgb(234, 226, 226);
+}
+
+.site__hero {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 370px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.site__header-list {
+    margin-top: 20px;
+    margin-bottom: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site__header-item {
+    background-color: #FF4135;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 10px;
+    border-radius: 7px;
+    transition: all 0.4s ease;
+}
+
+.site__header-item:hover {
+    scale: 1.1;
+    box-shadow:
+        0 4px 0 #FF413599,
+        0 0 40px rgba(255, 255, 255, 0.5),
+        inset 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.site__header-item:active {
+    scale: 1;
+}
+
+.site__header-item2 {
+    background-color: #FF4135;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 42px;
+    border-radius: 7px;
+    transition: all 0.4s ease;
+}
+
+.site__header-item2:hover {
+    scale: 1.1;
+    box-shadow:
+        0 4px 0 #FF413599,
+        0 0 40px rgba(255, 255, 255, 0.5),
+        inset 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.site__header-item2:active {
+    scale: 1;
+}
+
+.site__header-item a {
+    font-family: sans-serif,'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.site__header-item2 a {
+    font-family: sans-serif,'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* hero */
+.site__hero {
+    font-family: 'Russo One', sans-serif;
+}
+
+.site__hero-container {
+    position: relative;
+}
+
+.site__hero-bg {
+    position: absolute;
+}
+
+.site__hero-bg2 {
+    position: absolute;
+}
+
+.site__hero-title1 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.site__hero-title1 span {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 125%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF2D1F;
+    margin-bottom: 26px;
+}
+
+.site__hero-box {
+    position: relative;
+}
+
+.site__box-img {
+    max-width: 240px;
+    margin: 0 auto;
+    width: 286px;
+    height: 338px;
+}
+
+.site__hero-btn {
+    top: 300px;
+    position: absolute;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(0deg, #FF4135, #FF4135),
+    radial-gradient(102.92% 102.92% at 50% -45.56%, rgba(255, 65, 53, 0.55) 0%, rgba(255, 65, 53, 0) 100%);
+    box-shadow: 0px 3px 0px 0px #DA2F24;
+    box-shadow: 0px 0px 36.48px 0px #FF413599 inset;
+    box-shadow: 0px 4px 20px 0px #FF413580;
+    border: none;
+    border-radius: 1520px;
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 57px;
+    transition: all 0.4s ease;
+}
+
+.site__hero-btn:hover {
+    scale: 1.05;
+    box-shadow:
+        0 4px 0 #FF413599,
+        0 0 40px rgba(255, 255, 255, 0.5),
+        inset 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.site__hero-btn:active {
+    scale: 1;
+}
+
+.site__hero-btn img {
+    display: flex;
+    width: 45px;
+    height: 43px;
+}
+
+/*  */
+.site__hero-btn2 {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(0deg, #FF4135, #FF4135),
+    radial-gradient(102.92% 102.92% at 50% -45.56%, rgba(255, 65, 53, 0.55) 0%, rgba(255, 65, 53, 0) 100%);
+    box-shadow: 0px 3px 0px 0px #DA2F24;
+    box-shadow: 0px 0px 36.48px 0px #FF413599 inset;
+    box-shadow: 0px 4px 20px 0px #FF413580;
+    border: none;
+    border-radius: 1520px;
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 57px;
+    margin-bottom: 38px;
+    transition: all 0.4s ease;
+}
+
+.site__hero-btn2:hover {
+    scale: 1.05;
+    box-shadow:
+        0 4px 0 #FF413599,
+        0 0 40px rgba(255, 255, 255, 0.5),
+        inset 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.site__hero-btn2:active {
+    opacity: 0.6;
+    scale: 1;
+}
+
+.site__hero-btn2 img {
+    display: flex;
+    width: 45px;
+    height: 43px;
+}
+
+.site__hero-title2 {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+    padding-bottom: 14px;
+}
+
+.site__hero-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 24px;
+}
+
+.site__hero-item {
+    width: 100%;
+    border: 2px solid #3353B1;
+    border-radius: 15px;
+    transition: all .4s ease;
+}
+
+.site__hero-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    color: #000;
+}
+
+.site__hero-item:hover {
+    transform: scale(1.05);
+    box-shadow:
+        0 1.6px 0 #3353B1,
+        0 0 40px rgba(255,255,255,.5),
+        inset 0 0 10px rgba(255,255,255,.3);
+}
+
+.site__item-box {
+    position: relative;
+    background: radial-gradient(50% 50% at 50% 50%, #3D68FD 0%, #3353B1 100%);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.site__item-box-top {
+    position: absolute;
+    top: 1.5px;
+    right: -8px;
+    padding: 2px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.site__item-box-bottom {
+    position: absolute;
+    position: absolute;
+    bottom: 1.5px;
+    left: -8px;
+    padding: 2px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.site__hero-text {
+    max-width: 240px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.site__hero-text span {
+    font-weight: 700;
+    font-size: 16px;
+}
